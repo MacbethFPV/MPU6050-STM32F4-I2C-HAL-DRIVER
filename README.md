@@ -20,8 +20,6 @@ Original Author's Website: https://controllerstech.com/how-to-interface-mpu6050-
 Original Author's Youtube video used: https://youtu.be/xxphp9wDnHA  
 Modified by: Mac  
 Purpose: Base for future project   
-<br> </br>
-
 
 ## Hardware used:
   - Mac / Windows Machine to run STM32CubeIDE
