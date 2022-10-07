@@ -2,7 +2,7 @@
 Basic MPU6050 I2C Driver used to get Accelerometer and Gyroscope print outs over UART using an STM32F411RET6U Nucleo Dev Board
 
 * Original Author - Controller's Tech
-* Original Author's Website - https://controllerstech.com/how-to-interface-mpu6050-gy-521-with-stm32/
+* Original Author's Website https://controllerstech.com/how-to-interface-mpu6050-gy-521-with-stm32/
 * Original Author's Youtube video used: https://youtu.be/xxphp9wDnHA
 * Modified by - Mac
 * Purpose - Base for future project
@@ -34,8 +34,11 @@ Firstly check out Controller Tech's Youtube Video to learn how the code goes tog
                                                 CP2102 RXD -> Nucleo TX (PA9)
                                                 CP2102 TXD -> Nucleo RX (PA10)
                                                 (May differ for your setup depending on your HW and Pin configuration)  
-Linux Commands to see MCU output using the CP2102:
+  Linux Commands to see MCU output using the CP2102
+  ```
   $ sudo apt update
   $ sudo apt install picocom
-  $ ls /dev/tty*                        #To find out what the CP2102 connected as (Mine was under "/dev/ttyUSB0"      
-  $ picocom -b 115200 /dev/ttyUSB       #After this I had Accel and Gyro printouts in the following for
+  $ ls /dev/tty*                    #To find out what the CP2102 connected as (Mine was under "/dev/ttyUSB0")
+  $ picocom -b 115200 /dev/ttyUSB   #After this I had Accel and Gyro printouts
+  # Quit using CTRL+A, CTRL+Q
+  ```
