@@ -1,5 +1,9 @@
 /* USER CODE BEGIN Header */
 /**
+  * Original Author - Controller's Tech
+  * Original Author's Website - https://controllerstech.com/how-to-interface-mpu6050-gy-521-with-stm32/
+  * Modified by - Mac
+  * Purpose - Base for future project
   ******************************************************************************
   * @file           : main.c
   * @brief          : Main program body
