@@ -27,7 +27,7 @@ Purpose: Base for future project
   - STM32F411RET6U Nucleo Board
   - MPU6050 6-axis IMU
   - CP2102 USB to TTL Adapter 
-  - Qty 4: 1.25mm Dupont Female to Female Connectors
+  - Qty 4: 2.54mm Dupont Female to Female Connectors
 
 ## Some guidance to use the above files:
 Firstly check out Controller Tech's Youtube Video to learn how the code goes together
