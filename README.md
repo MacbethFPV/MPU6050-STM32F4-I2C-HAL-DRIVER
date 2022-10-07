@@ -1,10 +1,9 @@
 # Simple_MPU6050_I2C_Printout
 Basic MPU6050 I2C Driver used to get Accelerometer and Gyroscope print outs over UART using an STM32F411RET6U Nucleo Dev Board
 
-<ins>Original Author:</ins> Controller's Tech  
+Original Author: Controller's Tech  
 Original Author's Website: https://controllerstech.com/how-to-interface-mpu6050-gy-521-with-stm32/  
 Original Author's Youtube video used: https://youtu.be/xxphp9wDnHA  
-
 Modified by: Mac  
 Purpose: Base for future project   
 
