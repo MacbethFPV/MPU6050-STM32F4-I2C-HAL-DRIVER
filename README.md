@@ -1,4 +1,4 @@
-# Simple_MPU6050_I2C_Printout
+# Stm32_HAL_MPU6050_I2C_PrintData
    
 <hr> </hr>
 
