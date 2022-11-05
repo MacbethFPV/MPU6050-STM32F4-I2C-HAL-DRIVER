@@ -27,7 +27,7 @@ Purpose: Base for future project
   - STM32F411RET6U Nucleo Board
   - MPU6050 6-axis IMU
   - CP2102 USB to TTL Adapter 
-  - Qty 4: 2.54mm Dupont Female to Female Connectors
+  - Qty 4: 2.54mm Female to Female Dupont Cables
 
 ## Some guidance to use the above files:
 Firstly check out Controller Tech's Youtube Video to learn how the code goes together
@@ -53,6 +53,6 @@ Firstly check out Controller Tech's Youtube Video to learn how the code goes tog
   $ sudo apt update
   $ sudo apt install picocom
   $ ls /dev/tty*                    #To find out what the CP2102 connected as (Mine was under "/dev/ttyUSB0")
-  $ picocom -b 115200 /dev/ttyUSB   #After this I had Accel and Gyro printouts
+  $ picocom -b 115200 /dev/ttyUSB0   #After this I had Accel and Gyro printouts
   # Quit using CTRL+A, CTRL+Q
   ```
